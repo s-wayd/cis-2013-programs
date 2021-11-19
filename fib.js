@@ -1,3 +1,5 @@
+while (true)
+{	
 //Simple function used to access elements on the html DOM
 var $ = function (id) 
 {
@@ -76,3 +78,4 @@ window.onload = function ()
     $("output").value = "";
     $("generate").onclick = generate; //runs the generate function when clicked
 }  
+}	
